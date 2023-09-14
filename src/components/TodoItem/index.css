@@ -1,20 +1,26 @@
 .todo {
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 15px;
+  margin-bottom: 5px;
 }
 .title {
   font-family: 'Roboto';
-  font-size: 16px;
+  font-size: 17px;
   color: #000000;
 }
 .button {
-  border: 1px solid #ff0b37;
   background-color: transparent;
+  border-radius: 7px;
+  padding: 10px;
+  height: 30px;
+  margin-top: 17px;
+  border: 1px solid #ff0b37;
   color: #ff0b37;
-
-  border-radius: 8px;
-  width: 70px;
-  height: 40px;
+}
+@media screen and (max-width: 576px) {
+  .button {
+    margin-top: 20px;
+  }
 }
